@@ -66,7 +66,7 @@ function update() {
         return; // arrêter d'updater le canva
     }
 
-    context.fillStyle = "black"; // change la couleur du pinceau en noir
+    context.fillStyle = "white"; // change la couleur du pinceau en noir
     context.fillRect(0, 0, canva.width, canva.height); // dessine un rectangle partant de 0,0 jusqu'à canva-width et canva-height
 
     context.fillStyle = "red" // pour la couleur de la pomme
